@@ -35,7 +35,7 @@ class BarangController extends Controller
             'merk' => 'required|string|max:30',
             'seri' => 'required|string|max:40',
             'spesifikasi' => 'nullable|string',
-            'stok' => 'required|integer',
+            'stok' => 'integer|',
             'kategori_id' => 'required|exists:kategori,id'
         ]);
 
