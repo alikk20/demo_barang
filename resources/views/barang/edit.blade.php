@@ -37,7 +37,7 @@
         <div class="form-group mb-3">
             <label for="kategori_id">Kategori</label>
             <select name="kategori_id" class="form-select" aria-label="Default select example" required>
-                @foreach($listkategori as $key => $val)
+                @foreach($kategoriList as $key => $val)
                     <option value="{{ $key }}" {{ old('kategori_id', $barang->kategori_id) == $key ? 'selected' : '' }}>{{ $val }}</option>
                 @endforeach
             </select>

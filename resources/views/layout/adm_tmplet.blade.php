@@ -67,8 +67,8 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="{{ route('kategori.index') }}">Kategori</a>
                         <a class="collapse-item" href="{{ route('barang.index') }}">Barang</a>
-                        <a class="collapse-item" href="cards.html">Barang Masuk</a>
-                        <a class="collapse-item" href="cards.html">Barang Keluar</a>
+                        <a class="collapse-item" href="{{ route('masuk.index') }}">Barang Masuk</a>
+                        <a class="collapse-item" href="{{ route('keluar.index') }}">Barang Keluar</a>
                     </div>
                 </div>
             </li>
